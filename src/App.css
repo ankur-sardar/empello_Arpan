@@ -1,0 +1,392 @@
+/* MUI class overrides */
+@import "mui_overrides.css";
+@import "animations.css";
+@import "keyframes.css";
+@import "mobile_view.css";
+@import "tablet_view.css";
+@import "desktop_view.css";
+
+#root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	margin: 0px;
+	justify-content: flex-start;
+	color: #fff;
+	background-color: #b4b4b4;
+	overflow-y: scroll;
+}
+
+.body_container {
+	flex: 1;
+	align-self: center;
+	background-color: black;
+	padding-top: 70px;
+	background-image: url("/images/category_bg.png");
+	max-width: 600px;
+	min-width: 375px;
+	display: flex;
+	flex-direction: column;
+}
+.navigationBar_container_appBar {
+	right: auto !important;
+	border-radius: 80px;
+}
+.navigationBar_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	flex: 0;
+	background-color: black;
+}
+
+.appbar_logo {
+	height: 100%;
+	width: 200px;
+	margin: auto;
+}
+.appbar_container {
+	/* padding: 0px 10px; */
+}
+.homePage_banner_container {
+	/* width: 335px; */
+	width: 100%;
+	height: 468px;
+	border-radius: 10px;
+	background: transparent
+		radial-gradient(closest-side at 50% 50%, #285d96 0%, #0f2241 100%) 0% 0%
+		no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	opacity: 1;
+}
+.homePage_quizCategoryList_container {
+	margin: 16px 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+/* Styles for Quiz Category card - Start */
+.homePage_quizCategoryCard_container {
+	/* height: 110px; */
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border-radius: 16px;
+	opacity: 1;
+	box-shadow: 0px 4px 80px #887aa614;
+	display: flex;
+	padding: 20px;
+	gap: 20px;
+}
+.homePage_quizCategoryCard_container:hover {
+	background: #f2f2f2 0% 0% no-repeat padding-box;
+}
+.homePage_quizCategoryCard_container .logo {
+	flex-grow: 0;
+}
+.homePage_quizCategoryCard_container .logo > img {
+	width: 70px;
+}
+.homePage_quizCategoryCard_container .name {
+	flex-grow: 1;
+	text-align: left;
+	color: #3f4765;
+	font-size: 15px;
+	font-weight: 600;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.homePage_quizCategoryCard_container .action {
+	flex-grow: 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.homePage_quizCategoryCard_container .action .quizCategory_actionButton_start {
+	width: 86px;
+	height: 34px;
+	background: #23293b 0% 0% no-repeat padding-box;
+	border-radius: 17px;
+	opacity: 1;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.quizCategory_actionButton_start > span {
+	letter-spacing: 1px;
+	color: #03fac9;
+	opacity: 1;
+
+	font-size: 15px;
+	font-weight: 500;
+}
+.quizCategory_actionButton_start:hover {
+	cursor: pointer;
+	background-color: #394360;
+}
+/* Styles for Quiz Category card - End */
+
+.sectionHeading_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3px 15px;
+	border-radius: 23px;
+}
+.sectionHeading_container:hover {
+	cursor: pointer;
+	background-color: #293456;
+}
+.sectionHeading_container .headerText {
+	text-align: left;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0px;
+	color: #bfbfbf;
+	opacity: 1;
+}
+.sectionHeading_container .headerIcon > img {
+	width: 18px;
+	height: 24px;
+}
+.homePage_randomQuizInitiator_card {
+	background: transparent linear-gradient(90deg, #46a0ae 0%, #00ffcb 100%) 0% 0%
+		no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 23px;
+	opacity: 1;
+	height: 130px;
+	margin: 16px 0px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	margin: 16px;
+}
+.homePage_randomQuizInitiator_card .actionText {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0px;
+	color: #171d30;
+	opacity: 1;
+}
+.homePage_randomQuizInitiator_card .actionButton {
+	width: 80%;
+	height: 55px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 13px;
+	opacity: 1;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.homePage_randomQuizInitiator_card .actionButton > span {
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	letter-spacing: 0px;
+	color: #23293b;
+	opacity: 1;
+}
+.actionButton:hover {
+	cursor: pointer;
+	background: #f2f2f2 0% 0% no-repeat padding-box;
+}
+.homePage_userStat_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 16;
+	margin: 16px 16px 16px 16px;
+}
+.homePage_userStat_container .leftBlock {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: start;
+	gap: 8px;
+}
+.homePage_userStat_container .leftBlock .goodbye {
+	display: flex;
+	gap: 4px;
+
+	text-align: left;
+	letter-spacing: 0px;
+	color: #ffffff;
+	opacity: 1;
+}
+.homePage_userStat_container .leftBlock .goodbye .icon > img {
+	width: 18px;
+	height: 18px;
+}
+.homePage_userStat_container .leftBlock .goodbye .greetingText {
+}
+.homePage_userStat_container .leftBlock .letsplay {
+	text-align: left;
+	font-size: 14px;
+	letter-spacing: 0px;
+	color: #818e9e;
+	opacity: 1;
+}
+.homePage_userStat_container .coins-area {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 4px;
+	position: relative;
+}
+.homePage_userStat_container .coins-area .icon > img {
+	width: 35px;
+	height: 35px;
+}
+.homePage_userStat_container .coins-area .points {
+	width: 100px;
+	height: 40px;
+	/* UI Properties */
+	background: #ffbf47 0% 0% no-repeat padding-box;
+	border-radius: 100px;
+	opacity: 1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.homePage_userStat_container .coins-area .points > span {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0px;
+	color: #ffffff;
+	opacity: 1;
+}
+.homePage_userStat_container .coins-area .rank {
+	margin: 0 5px;
+	color: #fff;
+	font-size: 14px;
+}
+.homePage_userStat_container .coins-area .coins {
+	color: #fff;
+	height: 35px;
+	width: 75px;
+	display: flex;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: grab;
+	align-items: center;
+	border-radius: 40px;
+	justify-content: center;
+	background-color: #ffb300;
+}
+.homePage_userStat_container .coinFx {
+	translate: -10px -50px;
+	z-index: 2;
+	display: block;
+	position: absolute;
+}
+.homePage_userStat_container .coin {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 22.5px;
+	height: 22.5px;
+	opacity: 0;
+	animation: coinDrop 0.4s ease-in both;
+}
+.homePage_userStat_container .coin-1 {
+	animation-delay: 1s;
+}
+.homePage_userStat_container .coin-2 {
+	animation-delay: 1.2s;
+}
+.homePage_userStat_container .coin-3 {
+	animation-delay: 1.4s;
+}
+.homePage_userStat_container .coin-4 {
+	animation-delay: 1.6s;
+}
+.homePage_userStat_container .coin-5 {
+	animation-delay: 1.8s;
+}
+.homePage_userStat_container .coin-6 {
+	animation-delay: 2s;
+}
+.homePage_userStat_container .coin-7 {
+	animation-delay: 2.2s;
+}
+.homePage_userStat_container .coin-8 {
+	animation-delay: 2.4s;
+}
+.homePage_userStat_container .coin-9 {
+	animation-delay: 2.6s;
+}
+.homePage_userStat_container .coin-10 {
+	animation-delay: 2.8s;
+}
+@keyframes coinDrop {
+	1% {
+		opacity: 1;
+	}
+	99% {
+		opacity: 0.1;
+	}
+	to {
+		opacity: 0;
+		transform: translate(-30px, 40px);
+		width: 10px;
+		height: 10px;
+	}
+}
+
+.homePage_quizProgressList_container {
+	margin: 14px 16px;
+	display: flex;
+	gap: 16px;
+	overflow-x: scroll;
+	min-height: 170px;
+}
+
+.button:hover {
+	cursor: pointer;
+	transition: background-color 0.3s;
+	opacity: 0.8;
+}
+
+.hide {
+	display: none;
+}
+.actionButton.disabled {
+	cursor: default !important;
+	background: transparent linear-gradient(180deg, #b4b4b4 0%, #8c8c8c 100%) 0%
+		0% no-repeat padding-box !important;
+}
+.imageDisabled {
+	filter: grayscale(100%);
+}
+.textDisabled {
+	color: #8c8c8c !important;
+}
+.paddingTop0 {
+	padding-top: 0px !important;
+}
+.paddingTop8 {
+	padding-top: 8px !important;
+}
+.paddingTop16 {
+	padding-top: 16px !important;
+}
+.justifyCenter {
+	justify-content: center !important;
+}

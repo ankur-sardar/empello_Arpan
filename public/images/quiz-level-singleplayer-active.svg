@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.334" height="46" viewBox="0 0 41.334 46">
+  <g id="Icon" transform="translate(2 1.999)">
+    <path id="Path" d="M37.334,14V9.334A9.334,9.334,0,0,0,28,0H9.334A9.334,9.334,0,0,0,0,9.334V14" transform="translate(0 28.001)" fill="none" stroke="#0debc4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+    <circle id="Oval" cx="9.5" cy="9.5" r="9.5" transform="translate(9 0.001)" fill="none" stroke="#0debc4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="Group_12935" data-name="Group 12935" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100.074" height="315.176" viewBox="0 0 100.074 315.176">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.431" y2="0.813" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#08f6c9"/>
+      <stop offset="1" stop-color="#b1b1b1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect id="Vector_2" data-name="Vector 2" width="100.074" height="299.072" transform="translate(0 16.104)" fill="url(#linear-gradient)" style="mix-blend-mode: screen;isolation: isolate"/>
+  <ellipse id="Vector_1" data-name="Vector 1" cx="50.037" cy="16.679" rx="50.037" ry="16.679" fill="#08f6c9"/>
+</svg>

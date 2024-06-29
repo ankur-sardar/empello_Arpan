@@ -1,0 +1,14 @@
+@media only screen and (min-width: 992px) {
+	.body_container {
+		width: 40% !important;
+	}
+	.navigationBar_container {
+		width: 40%;
+	}
+	.navigationBar_container_appBar {
+		width: 30% !important;
+	}
+	/* .homePage_userStat_container .coinFx {
+		translate: -10px -50px;
+	} */
+}

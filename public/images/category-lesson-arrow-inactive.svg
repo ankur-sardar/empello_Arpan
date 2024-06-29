@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="eva:arrow-ios-forward-outline" width="21" height="21" transform="translate(-0.244 0.034)" fill="none" style="isolation: isolate"/>
+    </clipPath>
+  </defs>
+  <g id="eva:arrow-ios-forward-outline-2" data-name="eva:arrow-ios-forward-outline" transform="translate(0.244 -0.034)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <rect id="eva:arrow-ios-forward-outline-3" data-name="eva:arrow-ios-forward-outline" width="21" height="21" transform="translate(-0.244 0.034)" fill="none" style="isolation: isolate"/>
+    <path id="Vector" d="M.313,11.945A.866.866,0,0,1,.2,10.724l3.878-4.64L.339,1.436A.866.866,0,0,1,.469.216a.866.866,0,0,1,1.264.13L5.914,5.539a.866.866,0,0,1,0,1.1L1.586,11.832a.866.866,0,0,1-.718.312A.865.865,0,0,1,.313,11.945Z" transform="translate(7.789 4.303)" fill="#e3e3e3" style="isolation: isolate"/>
+  </g>
+</svg>

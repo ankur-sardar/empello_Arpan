@@ -1,0 +1,23 @@
+import SvgIcon from "@mui/material/SvgIcon";
+
+const BackIcon = () => {
+	return (
+		<SvgIcon>
+			<svg
+				id="Icon_-_Chevron"
+				data-name="Icon - Chevron"
+				xmlns="http://www.w3.org/2000/svg"
+				width="8"
+				height="14"
+				viewBox="0 0 8 14"
+			>
+				<path
+					id="Vector"
+					d="M7.707.293a1,1,0,0,1,0,1.414L2.414,7l5.293,5.293a1,1,0,1,1-1.414,1.414l-6-6a1,1,0,0,1,0-1.414l6-6A1,1,0,0,1,7.707.293Z"
+					fill="#fff"
+				/>
+			</svg>
+		</SvgIcon>
+	);
+};
+export default BackIcon;

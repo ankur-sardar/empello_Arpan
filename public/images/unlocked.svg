@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.572" height="19.26" viewBox="0 0 18.572 19.26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="fluent:lock-open-24-regular" width="18.572" height="19.26" transform="translate(0.459 -0.004)" fill="none" style="isolation: isolate"/>
+    </clipPath>
+  </defs>
+  <g id="fluent:lock-open-24-regular-2" data-name="fluent:lock-open-24-regular" transform="translate(-0.459 0.004)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <rect id="fluent:lock-open-24-regular-3" data-name="fluent:lock-open-24-regular" width="18.572" height="19.26" transform="translate(0.459 -0.004)" fill="none" style="isolation: isolate"/>
+    <g id="Group" transform="translate(3.319 1.59)" style="isolation: isolate">
+      <path id="Vector" d="M9.47,2.384a.6.6,0,0,1-1.131.373A2.08,2.08,0,0,0,6.351,1.191,1.937,1.937,0,0,0,4.37,3.216l0,.155V4.759h6.551A1.786,1.786,0,0,1,12.7,6.424l0,.122v7.539a1.786,1.786,0,0,1-1.664,1.782l-.122,0H1.786A1.786,1.786,0,0,1,0,14.208l0-.122V6.547A1.786,1.786,0,0,1,1.664,4.764l.122,0H3.175V3.37A3.148,3.148,0,0,1,6.351,0h0A3.261,3.261,0,0,1,9.47,2.384ZM1.786,5.951a.6.6,0,0,0-.59.514l-.006.081v7.539a.6.6,0,0,0,.514.59l.081.006h9.13a.6.6,0,0,0,.59-.514l.006-.081V6.547A.6.6,0,0,0,11,5.956l-.081,0ZM6.82,9.2a1.208,1.208,0,1,1-.469-.079h0A1.189,1.189,0,0,1,6.82,9.2Z" transform="translate(0)" fill="#11facd" style="isolation: isolate"/>
+    </g>
+  </g>
+</svg>

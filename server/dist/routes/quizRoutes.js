@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
+const express_1 = tslib_1.__importDefault(require("express"));
+const authorize_1 = tslib_1.__importDefault(require("../middleware/authorize"));
+const quizController_1 = require("../controller/quizController");
+const router = express_1.default.Router();
+router.get("/categories", authorize_1.default, quizController_1.getCategories);
+router.get("/quizlevels", authorize_1.default, quizController_1.getQuizLevels);
+router.post("/createnewgame", authorize_1.default, quizController_1.createNewQuizGame);
+router.post("/submitgamedata", authorize_1.default, quizController_1.submitCompletedGameData);
+router.get("/getgamedatabyid", authorize_1.default, quizController_1.getGameDataById);
+router.get("/getplayedgames", authorize_1.default, quizController_1.getPlayedQuizGames);
+exports.default = router;

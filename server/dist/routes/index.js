@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
+const express_1 = require("express");
+const userRoutes_1 = tslib_1.__importDefault(require("./userRoutes"));
+const quizRoutes_1 = tslib_1.__importDefault(require("./quizRoutes"));
+const router = (0, express_1.Router)();
+router.use("/user", userRoutes_1.default);
+router.use("/quiz", quizRoutes_1.default);
+exports.default = router;

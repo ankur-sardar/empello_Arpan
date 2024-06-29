@@ -1,0 +1,143 @@
+/* Styles applied to the root element. */
+.homePage_quizLevelCard_container {
+	width: 136px;
+	height: 150px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 4px 80px #887aa614;
+	border-radius: 16px;
+	opacity: 1;
+}
+.homePage_quizLevelCard_container .logo {
+	/* width: 100%;
+	height: 92px;
+	opacity: 1;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; */
+}
+.homePage_quizLevelCard_container .logo > img {
+	height: 92px;
+	width: 136px;
+}
+.homePage_quizLevelCard_container .cardDetailsContainer {
+	padding: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 10px;
+}
+.homePage_quizLevelCard_container .cardDetailsContainer .name {
+	text-align: left;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0px;
+	color: #3f4765;
+	opacity: 1;
+
+	display: flex;
+	justify-content: flex-start;
+	vertical-align: middle;
+	gap: 6px;
+}
+.homePage_quizLevelCard_container .cardDetailsContainer .name > img {
+	height: 18px;
+	width: 18px;
+}
+
+.homePage_quizLevelCard_container .cardDetailsContainer .progress {
+}
+
+.progresslevelPage_quizLevelCard_container {
+	width: 100%;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 4px 80px #887aa614;
+	border-radius: 16px;
+	/* width: 100%;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 4px 80px #887aa614;
+	border-radius: 16px;
+	opacity: 1;
+	mix-blend-mode: normal;
+
+	display: flex;
+	justify-content: space-around;
+	vertical-align: middle;
+	align-items: center; */
+}
+.progresslevelPage_quizLevelCard_container .summary {
+	width: 100%;
+	height: 58px;
+	opacity: 1;
+	mix-blend-mode: normal;
+	display: flex;
+	justify-content: space-around;
+	vertical-align: middle;
+	align-items: center;
+}
+.progresslevelPage_quizLevelCard_container .summary .logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.progresslevelPage_quizLevelCard_container .summary .logo > img {
+	width: 28px;
+	height: 28px;
+}
+.progresslevelPage_quizLevelCard_container .summary .name {
+	font-size: 14px;
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 0px;
+	color: #494f55;
+	opacity: 1;
+}
+.progresslevelPage_quizLevelCard_container .summary .progress {
+	width: 98px;
+}
+.progresslevelPage_quizLevelCard_container .summary .action > img {
+	/* color: #494f55; */
+	width: 20px;
+	height: 20px;
+}
+.progresslevelPage_quizLevelCard_container .summary .action:hover {
+	cursor: pointer;
+}
+
+.progresslevelPage_quizLevelCard_container .summary .action.rotate90Right {
+	transform: matrix(0, 1, -1, 0, 0, 0) !important;
+}
+.progresslevelPage_quizLevelCard_container .summary .remainingPoints {
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #494f55;
+	opacity: 1;
+}
+.progresslevelPage_quizLevelCard_container .details {
+	width: 100%;
+	opacity: 1;
+	mix-blend-mode: normal;
+	display: flex;
+	justify-content: space-around;
+	vertical-align: middle;
+	align-items: center;
+	margin-bottom: 16px;
+}
+.progresslevelPage_quizLevelCard_container .details .actionButton {
+	width: 102px;
+	height: 32px;
+	background: transparent linear-gradient(90deg, #46a0ae 0%, #00ffcb 100%) 0% 0%
+		no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	opacity: 1;
+	color: #fff;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}

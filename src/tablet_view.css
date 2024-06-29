@@ -1,0 +1,16 @@
+/* Tablet view - START */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.body_container {
+		width: 70% !important;
+	}
+	.navigationBar_container {
+		width: 70%;
+	}
+	.navigationBar_container_appBar {
+		width: 60% !important;
+	}
+	/* .homePage_userStat_container .coinFx {
+		translate: -10px -50px;
+	} */
+}
+/* Tablet view - END */
