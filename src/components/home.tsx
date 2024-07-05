@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { getParsedObject } from "./data";
+import { getParsedObject } from "./utils";
 
 const Home = () => {
 	const [url, setUrl] = useState("");
@@ -7,17 +7,16 @@ const Home = () => {
 
 	const extractUrl = async () => {
 		try {
-			// const response = await fetch(url, {
-			// 	method: "GET",
-			// 	mode: "cors",
-			// 	headers: {
-			// 		"Content-Type": "text/html",
-			// 	},
-			// });
+			const response = await fetch(url, {
+				method: "GET",
+				headers: {
+					"Content-Type": "text/html",
+				},
+			});
 
-			// const html = await response.text();
-
-			getParsedObject();
+			const html = await response.text();
+			console.log("HTML=>", html);
+			// getParsedObject();
 			// setHtmlResponse(doc.body.innerHTML);
 		} catch (error) {
 			console.error("Error fetching URL:", error);

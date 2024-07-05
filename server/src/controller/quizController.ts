@@ -50,5 +50,4 @@ const createNewQuizGame = async (req: any, res: any) => {
 	// 	res.status(500).send("Server error");
 	// }
 };
-
 export { getCategories, createNewQuizGame };
