@@ -27,7 +27,7 @@ export const extractLog = (htmlString: string) => {
 			segments.push(item.trim().split("::"));
 		}
 	});
-	console.log("SEGMENTS=>", segments);
+	// console.log("SEGMENTS=>", segments);
 
 	segments.forEach((item: any, i) => {
 		if (i === 0 && item[0].trim() === "GET RESOURCE") {

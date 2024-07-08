@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { getParsedObject } from "./utils";
+// import { getParsedObject } from "./utils";
+import empelloService from "../services";
 
 const Home = () => {
 	const [url, setUrl] = useState("");
@@ -7,15 +8,11 @@ const Home = () => {
 
 	const extractUrl = async () => {
 		try {
-			const response = await fetch(url, {
-				method: "GET",
-				headers: {
-					"Content-Type": "text/html",
-				},
-			});
+			const response = await empelloService.extractEmpelloTicketData(
+				url.split(",")
+			);
 
-			const html = await response.text();
-			console.log("HTML=>", html);
+			console.log("RESPONSE=>", response);
 			// getParsedObject();
 			// setHtmlResponse(doc.body.innerHTML);
 		} catch (error) {
@@ -25,11 +22,10 @@ const Home = () => {
 
 	return (
 		<>
-			<input
-				type="text"
-				style={{ width: 800, marginTop: 50, marginBottom: 50 }}
+			<textarea
+				style={{ width: 800, height: 200, marginTop: 20, marginBottom: 20 }}
 				onChange={(e) => setUrl(e.target.value)}
-			/>
+			></textarea>
 			<button onClick={extractUrl}>Submit</button>
 			<hr />
 			<div>{htmlResponse}</div>

@@ -1,9 +1,9 @@
 import { Router } from "express";
-import QuizRoutes from "./quizRoutes";
+import EmpelloRoutes from "./empelloRoutes";
 const router = Router();
 
 // Routes
-router.use("/quiz", QuizRoutes);
+router.use("/empelloServices", EmpelloRoutes);
 
 // Export the base-router
 export default router;

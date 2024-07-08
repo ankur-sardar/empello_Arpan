@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "/api/quiz/";
+const API_URL = "/api/empelloServices/";
 const config = {
 	headers: {
 		"Content-Type": "application/json",
@@ -20,13 +20,13 @@ const config = {
 // };
 
 //Create new quiz game
-const createNewQuizGame = async (newGameData: any) => {
-	const response = await axios.post(API_URL + "createnewgame", newGameData);
+const extractEmpelloTicketData = async (urlList: string[]) => {
+	const response = await axios.post(API_URL + "createTicketData", { urlList });
 	return response.data;
 };
 
-const quizService = {
-	createNewQuizGame,
+const empelloService = {
+	extractEmpelloTicketData,
 };
 
-export default quizService;
+export default empelloService;

@@ -14,20 +14,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 const port = process.env.PORT_SERVER || 5080;
-
-const extract = (req: any, res: any, next: any) => {
-	axios
-		.get(
-			"https://workflow.monitoringservice.co/en/view_tmp/escalatedtrnx/MzQ1NDM3NjMw"
-		)
-		.then((response) => {
-			console.log("RESPONSE=>", response.data);
-			return res.send(response.data);
-		});
-};
 //routes
-// app.use("/api", BaseRouter);
-app.use("/extract", extract);
+app.use("/api", BaseRouter);
+// app.use("/extract", extract);
 
 app.listen(port, () => {
 	console.log(`Server has started listening on port no ${port}`);
